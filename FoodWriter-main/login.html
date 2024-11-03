@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Boostrap Login</title>
+    
+</head>
+<body>
+    <nav id="Navbar" class="navbar fixed-top">
+        <div class="container-fluid">
+          <a id="Logo" class="navbar-brand">Food🥨riter</a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar Receitas..." aria-label="Buscar Receitas...">
+            <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+  
+      <h1 id="Header" class="display-4 text-center">Bem-vindo ao FoodWriter</h1>
+
+    <!----------------------- Main Container -------------------------->
+
+     <div class="container d-flex justify-content-center align-items-center min-vh-100">
+
+    <!----------------------- Login Container -------------------------->
+
+       <div class="row border rounded-5 p-3 bg-white shadow box-area">
+
+    <!--------------------------- Left Box ----------------------------->
+
+       <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: #675af8;">
+        <div class="header-text mb-4">
+            <h2 id="Texto" class="text-center fw-bold">Bem-vindo!</h2>
+            <p id="Texto" class="text-center">
+                Se ainda não tem uma conta. 
+                <br>
+                Por que não <strong>criar</strong> uma?
+            </p>
+        </div>
+           <div class="input-group mb-3 justify-content-center">
+            <button class="btn btn-lg btn-outline-light w-50 fs-6 rounded-5">Cadastrar-se</button>
+            </div>
+       </div> 
+
+    <!-------------------- ------ Right Box ---------------------------->
+        
+       <div class="col-md-6 right-box">
+          <div class="row align-items-center">
+                <div class="header-text mb-4">
+                     <h2>Faça seu Login</h2>
+                     <div id="Linha"></div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Email">
+                </div>
+                <div class="input-group mb-1">
+                    <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Senha">
+                </div>
+                <div class="input-group mb-5 d-flex justify-content-between">
+                </div>
+                <div class="input-group mb-3 justify-content-center">
+                    <button id="LoginBtn" class="btn btn-lg w-100 fs-6">Login</button>
+                </div>
+          </div>
+       </div> 
+
+      </div>
+    </div>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

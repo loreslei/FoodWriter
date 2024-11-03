@@ -1,0 +1,35 @@
+#ImagemComida{
+    border: none;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 20px;
+    box-shadow: 4px 4px 28px 4px rgba(33, 63, 141, 0.25);
+    margin-bottom: 6rem;
+}
+
+#Autor{
+    margin-bottom: 2rem;
+}
+
+#Data{
+    color: #999999;
+}
+
+@media(max-width:926.98px){
+    #ImagemComida{
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media(max-width:600.98px){
+    #ImagemComida{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+.posicaoImagem{
+    display: flex;
+    justify-content: center;
+}

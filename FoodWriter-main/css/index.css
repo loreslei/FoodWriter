@@ -1,0 +1,59 @@
+
+
+#merdinhas{
+    z-index: 10;
+    transform: translateY(-30%);
+}
+
+.carousel-item img{
+    height: 50%;
+    width: 80%;
+}
+
+.carousel-control-prev{
+    transform: translateX(30%);
+}
+
+.carousel-control-next{
+    transform: translateX(-30%);
+}
+
+img{
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    border-radius: 40px;
+}
+
+.card img{
+    border-radius: 40px 40px 0px 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousel-inner{
+    padding-bottom: 4rem;
+}
+
+.carousel-control-prev span{
+    margin:auto;
+}
+.carousel-control-next span{
+    margin:auto;
+}
+
+.carousel-inner img {
+    margin: auto;
+    border-radius: 40px;
+  }
+
+
+
+.carousel-control-next span{
+    color: #675af8;
+}
