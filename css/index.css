@@ -1,9 +1,8 @@
 
-
-#merdinhas{
-    z-index: 10;
-    transform: translateY(-30%);
+#Indicadores{
+    transform: translateY(-4rem);
 }
+
 
 .carousel-item img{
     height: 50%;
@@ -11,49 +10,51 @@
 }
 
 .carousel-control-prev{
-    transform: translateX(30%);
+    margin-left: 4rem;
 }
 
 .carousel-control-next{
-    transform: translateX(-30%);
+    margin-right: 4rem;
 }
+
+@media(max-width:767px){
+
+    .carousel-control-prev{
+        margin-left: 1.5rem;
+        transform: translateY(-1.5rem);
+    }
+    
+    .carousel-control-next{
+        margin-right: 1.5rem;
+        transform: translateY(-1.5rem);
+    }
+}
+
+
 
 img{
     background-size: cover;
     background-position: center;
 }
 
-.card{
-    border-radius: 40px;
-}
-
-.card img{
-    border-radius: 40px 40px 0px 0px;
-}
-
-.container{
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .carousel-inner{
     padding-bottom: 4rem;
 }
 
-.carousel-control-prev span{
-    margin:auto;
-}
-.carousel-control-next span{
-    margin:auto;
+
+.carousel-item img {
+    width: 100%;
 }
 
-.carousel-inner img {
+.carousel-item img {
     margin: auto;
-    border-radius: 40px;
-  }
-
-
-
+    width: 85%;       
+    height: auto;        
+    object-fit: cover;   
+    aspect-ratio: 16/9; 
+    border-radius: 20px; 
+    max-width: 90vw;     
+}
 .carousel-control-next span{
     color: #675af8;
 }

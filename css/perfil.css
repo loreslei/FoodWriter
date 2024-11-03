@@ -58,7 +58,8 @@
 
 #PosicaoTela{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 4rem;
 }
 
 @media(max-width:1200.98px){
@@ -92,7 +93,7 @@
 .card img{
     border-radius: 20px 20px 20px 20px;
     width: 85%;
+    object-fit: cover; 
     background-position: center;
-    background-size: cover;
     height: 12rem;
 }
