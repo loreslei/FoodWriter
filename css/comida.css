@@ -7,8 +7,12 @@
     margin-bottom: 6rem;
 }
 
-#Autor{
+#Autor, #Categoria, #Ingredientes, #ModoPreparo{
     margin-bottom: 2rem;
+}
+
+#Ingredientes, #ModoPreparo{
+    margin-top: 4rem;
 }
 
 #Data{
