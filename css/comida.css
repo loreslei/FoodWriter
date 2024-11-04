@@ -11,6 +11,11 @@
     margin-bottom: 2rem;
 }
 
+#Socorro{
+    display: flex;
+    justify-content: center;
+}
+
 #Ingredientes, #ModoPreparo{
     margin-top: 4rem;
 }
