@@ -22,6 +22,7 @@
 
 #Data{
     color: #999999;
+    margin-bottom: 4rem;
 }
 
 @media(max-width:926.98px){
@@ -41,4 +42,13 @@
 .posicaoImagem{
     display: flex;
     justify-content: center;
+}
+
+#Categoria{
+    background-color: #675af8;
+    border-radius: 40px;
+    width: fit-content;
+    color: #fdfdfd;
+    padding: 1.5rem;
+    margin: auto;
 }
